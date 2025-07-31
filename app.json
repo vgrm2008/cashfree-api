@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "AiroFixApp",
+    "slug": "airofixapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "plugins": ["expo-image-picker"],
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "com.drdigiweb.airofixapp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "assetBundlePatterns": ["**/*"],
+    "extra": {
+      "eas": {
+        "projectId": "c19edd27-081a-4fb9-82c7-b764171ab236"
+      }
+    }
+  }
+}
